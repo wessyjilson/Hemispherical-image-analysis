@@ -56,13 +56,13 @@ xmp_data <-
     Model,
     FullPanoWidthPixels,
     FullPanoHeightPixels,
-    SourcePhotosCount,
+    #SourcePhotosCount,    Filtering out columns that don't seem to exist from phone that was used?
     Megapixels,
-    LastPhotoDate,
+    #LastPhotoDate,
     GPSLatitude,
     GPSLongitude,
-    GPSAltitude,
-    PoseHeadingDegrees
+    #GPSAltitude,
+    #PoseHeadingDegrees
   )
 
 # The first step in the process is to convert the equirectangular image from our phone into a hemispherical image.
